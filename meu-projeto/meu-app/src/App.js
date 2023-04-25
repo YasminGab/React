@@ -1,34 +1,42 @@
 import logo from './logo.svg';
-import './styles/App.css';
+import './styles/avatar.css';
+
 
 import Letreiro from './components/Letreiro';
 import Relogio from './components/Relogio';
+import MyApp from './components/myapp';
+import AboutPage from './components/myapp';
+import Profile from './components/Profile';
+import ContadorDePessoas from './components/ContadorPessoas';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+      <div className="App">
+        <header className="App-header">
 
-        <Letreiro/>
-        <Relogio/>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          </a>
 
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        
-
-      </header>
-    </div>
+        </header>
+      </div>
+      <Letreiro />
+      <hr></hr>
+      <Relogio />
+      <hr></hr>
+      <MyApp />
+      <hr></hr>
+      <Profile/>
+      <hr></hr>
+      <ContadorDePessoas/>
+      <hr></hr>
+      
+    </>
   );
 }
 
