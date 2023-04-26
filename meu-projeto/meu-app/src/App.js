@@ -1,13 +1,15 @@
 import logo from './logo.svg';
-import './styles/avatar.css';
-
+// import './styles/avatar.css';
+import './styles/contadorPessoas.css';
 
 import Letreiro from './components/Letreiro';
 import Relogio from './components/Relogio';
-import MyApp from './components/myapp';
-import AboutPage from './components/myapp';
+import MyApp from './components/Myapp';
+import AboutPage from './components/Myapp';
 import Profile from './components/Profile';
 import ContadorDePessoas from './components/ContadorPessoas';
+import Profile1 from './aula3/Profile1';
+import Gallery from './aula3/Gallery';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
 
         </header>
       </div>
+
       <Letreiro />
       <hr></hr>
       <Relogio />
@@ -35,7 +38,11 @@ function App() {
       <hr></hr>
       <ContadorDePessoas/>
       <hr></hr>
-      
+      <Profile1/>
+      <hr></hr>
+      <Gallery/>
+      <hr></hr>
+
     </>
   );
 }

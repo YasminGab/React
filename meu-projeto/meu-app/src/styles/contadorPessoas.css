@@ -1,0 +1,31 @@
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .total {
+    display: flex;
+    align-items: center;
+  }
+  
+  .total h2 {
+    margin-right: 20px;
+  }
+  
+  .genero {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .genero h2 {
+    margin-right: 20px;
+  }
+  
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
