@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './styles/avatar.css';
 import './styles/contadorPessoas.css';
 
+
 import Letreiro from './components/Letreiro';
 import Relogio from './components/Relogio';
 import MyApp from './components/Myapp';

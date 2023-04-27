@@ -1,59 +1,11 @@
-// import React, { useState, useEffect } from 'react';
-
-
-// export default function App() {
-
-//     const [homens, setHomens] = useState(0); //variável de estado para homens, mulheres e total
-//     const [mulheres, setMulheres] = useState(0);
-//     const [total, setTotal] = useState(0);
-
-//     const atualizarTotal = () => { //atualiza o total
-//         setTotal(homens + mulheres);
-//     };
-
-//     useEffect(atualizarTotal, [homens, mulheres]);
-
-//     const incrementarHomens = () => {
-//         setHomens(homens + 1);
-//     };
-
-//     const decrementarHomens = () => {
-//         if (homens > 0) {
-//             setHomens(homens - 1);
-//         }
-//     };
-
-//     const incrementarMulheres = () => {
-//         setMulheres(mulheres + 1);
-//     };
-
-//     const decrementarMulheres = () => {
-//         if (mulheres > 0) {
-//             setMulheres(mulheres - 1);
-//         }
-//     };
-
-//     return (
-//         <div className="contador">
-//             <h1>Contador de Pessoas</h1>
-//             <div className="total">
-//                 <h2>Total: {total}</h2>
-//             </div>
-//             <div className="genero">
-//                 <h2>Homens: {homens}</h2>
-//                 <button onClick={incrementarHomens}>+H</button>
-//                 <button onClick={decrementarHomens}>-H</button>
-//             </div>
-//             <div className="genero">
-//                 <h2>Mulheres: {mulheres}</h2>
-//                 <button onClick={incrementarMulheres}>+M</button>
-//                 <button onClick={decrementarMulheres}>-M</button>
-//             </div>
-//         </div>
-//     );
-// }
 
 import React, { useState } from 'react';
+import womanloira from '../assets/imagens/womanloira.png'
+import manbarba from '../assets/imagens/manbarba.png'
+import reset1 from '../assets/imagens/reset1.png'
+import addamarelo from '../assets/imagens/addamarelo.png'
+import remove from '../assets/imagens/remove.png'
+
 
 export default function App() {
 
@@ -82,22 +34,45 @@ export default function App() {
     };
 
     return (
-        <div className="contador">
-            <h1>Contador de Pessoas</h1>
-            <div className="total">
-                <h2>Total: {homens + mulheres}</h2>
-                <button onClick={resetar}>Resetar</button>
+        <div className='card'>
+            <div className="contador">
+                <h1>Contador de Pessoas</h1>
+                <div className="total">
+                    <h2>Total: {homens + mulheres}</h2>
+                    <div className='reset'>
+                        <button onClick={resetar}>
+                            <img src={reset1} alt='Ícone de reset' />
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <div className="genero">
+                        <img src={manbarba} alt="Ícone de Mulheres" />
+                        <h2>Homens: {homens}</h2>
+                        <div className='botaoH'>
+                            <button onClick={() => incrementar('H')}>
+                                <img src={addamarelo} alt='ìcone de adicionar'/>
+                            </button>
+                            <button onClick={() => decrementar('H')}>
+                                <img src={remove} alt='ícone de remover'/>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="genero">
+                        <img src={womanloira} alt="Ícone de Mulheres" />
+                        <h2>Mulheres: {mulheres}</h2>
+                        <div className='botaoM'>
+                            <button onClick={() => incrementar('M')}>
+                                <img src={addamarelo} alt='Ìcone de adicionar'/>
+                            </button>
+                            <button onClick={() => decrementar('M')}>
+                                <img src={remove} alt='Ícone de remover'/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="genero">
-                <h2>Homens: {homens}</h2>
-                <button onClick={() => incrementar('H')}>+H</button>
-                <button onClick={() => decrementar('H')}>-H</button>
-            </div>
-            <div className="genero">
-                <h2>Mulheres: {mulheres}</h2>
-                <button onClick={() => incrementar('M')}>+M</button>
-                <button onClick={() => decrementar('M')}>-M</button>
-            </div>
+
         </div>
     );
 }
