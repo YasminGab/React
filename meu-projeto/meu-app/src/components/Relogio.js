@@ -12,8 +12,8 @@ export function Relogio() {
 
   return (
     <div>
-      <h1>Relogio</h1>
-      <h2>It is {time}.</h2>
+      <h1>Relógio</h1>
+      <h2>{time}</h2>
     </div>
   );
 }
