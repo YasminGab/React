@@ -1,21 +1,28 @@
 import React, { useState, useEffect } from 'react';
 
 export function Relogio() {
-  const [time, setTime] = useState(new Date().toLocaleTimeString());
+  const [date, setDate] = useState(new Date());
 
   useEffect(() => {
     const intervalID = setInterval(() => {
-      setTime(new Date().toLocaleTimeString());
+      setDate(new Date());
     }, 1000);
     return () => clearInterval(intervalID);
   }, []);
 
+  const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}`;
+
   return (
-    <div>
-      <h1>Relógio</h1>
-      <h2>{time}</h2>
+    <div className='containerRelogio'>
+      <div className='carRelogio'>
+        <di>
+          {/* <h1>Relógio e Data</h1> */}
+          <h2>{formattedDate}</h2>
+        </di>
+      </div>
     </div>
   );
+
 }
 
 export default Relogio;

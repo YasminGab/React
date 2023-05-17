@@ -34,7 +34,7 @@ export default function App() {
     };
 
     return (
-        <div className='card'>
+        <div className='cardContador'>
             <div className="contador">
                 <h1>Contador de Pessoas</h1>
                 <div className="total">
