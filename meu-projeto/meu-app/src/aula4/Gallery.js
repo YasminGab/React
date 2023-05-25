@@ -20,11 +20,15 @@ export function Profile1() {
     );
 }
 
+const titulo={
+    color: '#000000',
+}
+
 export default function Gallery() {
     return (
         
         <section>
-            <h1>Amazing scientists</h1>
+            <h1 style={titulo}>Amazing scientists</h1>
             <Profile1 />
             <Profile1 />
             <Profile1 />

@@ -13,8 +13,12 @@ export default function Atv01() {
             <div className='tituloAtv'>
                 <h1>Atividade 01</h1>
             </div>
+            <div className="subtituloAtv">
+            <h2>1 - Data e Hora</h2>
             <Relogio />
+            <h2>2 - Letreiro </h2>
             <Letreiro />
+            </div>
         </>
     );
 }

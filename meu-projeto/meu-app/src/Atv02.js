@@ -13,7 +13,10 @@ export default function Atv02()
             <div className='tituloAtv'>
             <h1>Atividade 02</h1>
             </div>
-            <ContadorPessoas/>
+            <div className="subtituloAtv">
+                <h2>1 - Contador de Pessoas</h2>
+                <ContadorPessoas/>
+            </div>
         </>
     );
 }

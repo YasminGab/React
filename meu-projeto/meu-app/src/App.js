@@ -1,5 +1,5 @@
 import MinhasRotas from './minhasRotas';
-import './styles/contadorPessoas.css';
+import './styles/index.css';
 
 function App() {
   return (

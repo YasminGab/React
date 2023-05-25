@@ -14,8 +14,12 @@ export default function Atv03()
             <div className='tituloAtv'>
             <h1>Atividade 03</h1>
             </div>
-            <Gallery/>
-            <TodoList/>
+            <div className="subtituloAtv">
+                <h2>1- Gallery</h2>
+                <Gallery/>
+                <h2>2- TodoList</h2>
+                <TodoList/>
+            </div>
         </>
     );
 }
