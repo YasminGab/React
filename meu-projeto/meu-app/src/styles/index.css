@@ -241,7 +241,7 @@ p {
 
 .cardLetreiro{
   display: flex;
-  background-color: #DBCEF0;;
+  background-color: #DBCEF0;
   margin: 30px;
   padding: 20px;
   /* max-width: 500px; */
@@ -254,3 +254,75 @@ p {
   text-align: center;
 }
 
+/*Atv 04 - Toolbar*/
+
+.containerToolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.toolbarCard{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+/* Atv 04 - Gallery */
+
+.cardGallery{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+/* Atv 04 - Counter */
+
+.cardCounter{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+/* Atv 04 - Form */
+
+.cardForm{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+/* Atv 04 - MovingDot */
+
+.cardMovingDot{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+/* Atv 04 - Form 2 */
+
+.cardForm2{
+  background-color:  #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}

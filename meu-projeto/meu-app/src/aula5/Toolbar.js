@@ -1,67 +1,65 @@
-function Button({onClick, children})
-{
-    return(
-        <button onClick= { e => {
+function Button({ onClick, children }) {
+    return (
+        <button onClick={e => {
             e.stopPropagation();
             onClick();
-            }}>
+        }}>
             {children}
         </button>
     );
 }
 
-function PlayButton({movieName})
-{
-    function handlePlayClick(){
+function PlayButton({ movieName }) {
+    function handlePlayClick() {
         alert('Playing ${movieName}!');
     }
 
-    return(
+    return (
         <Button onClick={handlePlayClick}>
             Play"{movieName}"
         </Button>
     );
 }
 
-function UploadButton(){
-    return(
+function UploadButton() {
+    return (
         <Button onClick={() => alert('Uploading!')}>
             Upload Image
         </Button>
     );
 }
 
-function AlertButton({message, children})
-{
-    return(
+function AlertButton({ message, children }) {
+    return (
         <button onClick={() => alert(message)}>
             {children}
         </button>
     );
 }
 
-export default function App()
-{
-    return(
-        <Toolbar onSumit={e=>{
-            e.preventDefaut();
-            alert('Submitting!');
-        }}
-            onPlayMovie={() => alert('Playing!')}
-            onUploadImage={() => alert('Uploading!')}
-        />
+export default function App() {
+    return (
+        <div className="card-containerToolbar">
+            <Toolbar onSumit={e => {
+                e.preventDefaut();
+                alert('Submitting!');
+            }}
+                onPlayMovie={() => alert('Playing!')}
+                onUploadImage={() => alert('Uploading!')}
+            />
+        </div>
     );
 }
 
 //  export default 
 
- function Toolbar({onPlayMovie , onUploadImage})
-{
-    return(
-        <div className="Toolbar" onClick={() =>{
-            alert('You clicked on the toolbar!');
-        }}>
-            {/* <AlertButton message="Playing!">
+function Toolbar({ onPlayMovie, onUploadImage }) {
+    return (
+        <div className="toolbarCard">
+            <div className="Toolbar" onClick={() => {
+                alert('You clicked on the toolbar!');
+            }}>
+                {/* <AlertButton message="Playing!">
                 Play Movie
             </AlertButton>
 
@@ -72,20 +70,21 @@ export default function App()
             <PlayButton movieName="Kiki´s Delivery Service"/>
             <UploadButton/> */}
 
-            {/* <Button onClick={onPlayMovie}>
+                {/* <Button onClick={onPlayMovie}>
                 Play Movie
             </Button>
             <Button onClick={onUploadImage}>
                 Upload Image
             </Button> */}
 
-            <button onClick={() => alert('Playing!')}>
-                Play Movie
-            </button>
+                <button onClick={() => alert('Playing!')}>
+                    Play Movie
+                </button>
 
-            <button onClick={() => alert('Uploading!')}>
-                Upload Image
-            </button>
+                <button onClick={() => alert('Uploading!')}>
+                    Upload Image
+                </button>
+            </div>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import undo from '../src/assets/imagens/undo.png'
+import Calculadora from "./aula8/Calculadora";
 
 export default function Atv06()
 {
@@ -12,6 +13,10 @@ export default function Atv06()
             <div className='tituloAtv'>
             <h1>Atividade 06</h1>
             </div>
+                <div className="subtituloAtv">
+                    <h2>1 - Calculadora</h2>
+                    <Calculadora/>
+                </div>
         </>
     );
 }
