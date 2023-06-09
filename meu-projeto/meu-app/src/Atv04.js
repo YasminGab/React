@@ -27,30 +27,37 @@ export default function Atv04() {
                 <h1>Atividade 04</h1>
             </div>
             <div className="subtituloAtv">
+
                 <h2>1 - Toolbar</h2>
                 <Toolbar />
                 <br></br>
                 <br></br>
+
                 <h2>2 - Gallery</h2>
                 <Gallery5 />
                 <br></br>
                 <br></br>
+
                 <h2>3 - Counter</h2>
                 <Counter />
                 <br></br>
                 <br></br>
+
                 <h2>4 - Form</h2>
                 <Form />
                 <br></br>
                 <br></br>
+
                 <h2>5 - MovingDot</h2>
                 <MovingDot />
                 <br></br>
                 <br></br>
+
                 <h2>6 - Form 2</h2>
                 <Form2/>
                 <br></br>
                 <br></br>
+
                 <h2>7 - Form 3</h2>
                 <Form3/>
                 <br></br>
@@ -65,22 +72,27 @@ export default function Atv04() {
                 <List2/>
                 <br></br>
                 <br></br>
+                
                 <h2>10 - ShapeEditor</h2>
                 <ShapeEditor/>
                 <br></br>
                 <br></br>
+
                 <h2>11 - Counter List</h2>
                 <CounterList/>
                 <br></br>
                 <br></br>
+
                 <h2>12 - List 3 </h2>
                 <List3/>
                 <br></br>
                 <br></br>
+
                 <h2>13 - List 4</h2>
                 <List4/>
                 <br></br>
                 <br></br>
+                
                 <h2>14 - BucketList</h2>
                 <BucketList/>
                 <br></br>
