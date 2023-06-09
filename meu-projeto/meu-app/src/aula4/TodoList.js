@@ -15,7 +15,7 @@ export default function TodoList(){
                 src="https://i.imgur.com/7vQD0fPs.jpg"
                 alt="Gregorio Y. Zara"
             />
-            <ul>
+            <ul className="listTodo">
                 <li>Improve the videophone</li>
                 <li>Prepare aeronauticas lectures</li>
                 <li>Work on the alcohol-fulled engiine</li>

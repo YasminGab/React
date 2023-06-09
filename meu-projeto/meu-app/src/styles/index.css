@@ -254,6 +254,13 @@ p {
   text-align: center;
 }
 
+
+/*Atv 03 - TodoList*/
+
+.listTodo{
+  list-style: none;
+}
+
 /*Atv 04 - Toolbar*/
 
 .containerToolbar {
@@ -279,7 +286,7 @@ p {
   width: 45%;
   height: 40px;
   border-radius: 8px ;
-  font-size: 20px;
+  font-size: 15px;
   border-color: #f82d97;
 }
 
@@ -449,7 +456,7 @@ p {
   width: 55%;
   height: 40px;
   border-radius: 8px ;
-  font-size: 20px;
+  font-size: 15px;
   border-color: #f82d97;
   margin-bottom: 20px;
 }
@@ -485,7 +492,7 @@ p {
   width: 25%;
   height: 40px;
   border-radius: 8px ;
-  font-size: 20px;
+  font-size: 15px;
   border-color: #f82d97;
   margin-bottom: 20px;
   margin-left: 10px;
