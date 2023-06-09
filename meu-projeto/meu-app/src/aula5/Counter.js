@@ -8,7 +8,7 @@ export default function Counter()
         <>
         <div className='cardCounter'>
             <h1>{number}</h1>
-            <button onClick={() =>{
+            <button className="botaoToolbar" onClick={() =>{
                 setNumber(number +3);
                 // setNumber(n => n + 1);
                 // setNumber(42);

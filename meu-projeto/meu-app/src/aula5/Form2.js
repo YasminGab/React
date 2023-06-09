@@ -30,21 +30,24 @@ export default function Form2() {
                 <div>
                     <label>
                         First name:
-                        <input value={person.firstName} onChange={handleFirstName} />
+                        <input className="form2"value={person.firstName} onChange={handleFirstName} />
                     </label>
                 </div>
+                <br></br>
                 <div>
                     <label>
                         Last name:
-                        <input value={person.lastName} onChange={handleLastName} />
+                        <input className="form2" value={person.lastName} onChange={handleLastName} />
                     </label>
                 </div>
+                <br></br>
                 <div>
                     <label>
                         Email:
-                        <input value={person.email} onChange={handleEmail} />
+                        <input className="form2" value={person.email} onChange={handleEmail} />
                     </label>
                 </div>
+     
                 <div>
                     <p>
                         {person.firstName} {person.lastName} {person.email}{" "}

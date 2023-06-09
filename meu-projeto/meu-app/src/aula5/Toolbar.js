@@ -76,14 +76,15 @@ function Toolbar({ onPlayMovie, onUploadImage }) {
             <Button onClick={onUploadImage}>
                 Upload Image
             </Button> */}
+                <div>
+                    <button className="botaoToolbar" onClick={() => alert('Playing!')}>
+                        Play Movie
+                    </button>
 
-                <button onClick={() => alert('Playing!')}>
-                    Play Movie
-                </button>
-
-                <button onClick={() => alert('Uploading!')}>
-                    Upload Image
-                </button>
+                    <button className="botaoToolbar" onClick={() => alert('Uploading!')}>
+                        Upload Image
+                    </button>
+                </div>
             </div>
         </div>
     );

@@ -17,7 +17,7 @@ export default function Form() {
                 <div>
                     <label>
                         To:{' '}
-                        <select
+                        <select className="labelForm"
                             value={to}
                             onChange={e => setTo(e.target.value)}
                         >
@@ -26,15 +26,17 @@ export default function Form() {
                         </select>
                     </label>
                 </div>
-                <div>
-                    <textarea
+                <br></br>
+                <div >
+                    <textarea className="textForm"
                         placeholder="Message"
                         value={message}
                         onChange={e => setMessage(e.target.value)}
                     />
                 </div>
+                <br></br>
                 <div>
-                    <button type="submit">Send</button>
+                    <button className="botaoToolbar" type="submit">Send</button>
                 </div>
 
             </form>

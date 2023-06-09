@@ -6,7 +6,14 @@ import Form from "./aula5/Form";
 import MovingDot from "./aula5/MovingDot";
 import Toolbar from "./aula5/Toolbar";
 import Form2 from "./aula5/Form2";
-
+import List2 from "./aula5/List2";
+import ShapeEditor from "./aula5/ShapeEditor";
+import CounterList from "./aula5/ConterList";
+import List3 from "./aula5/List3";
+import List4 from "./aula5/List4";
+import BucketList from "./aula5/Bucket";
+import Form3 from "./aula5/Form3";
+import List from "./aula5/List";
 
 export default function Atv04() {
 
@@ -40,26 +47,42 @@ export default function Atv04() {
                 <MovingDot />
                 <br></br>
                 <br></br>
-                <h2>8 - List</h2>
+                <h2>6 - Form 2</h2>
                 <Form2/>
                 <br></br>
                 <br></br>
+                <h2>7 - Form 3</h2>
+                <Form3/>
+                <br></br>
+                <br></br>
+
+                <h2>8 - List</h2>
+                <List/>
+                <br></br>
+                <br></br>
+
                 <h2>9 - List 2</h2>
+                <List2/>
                 <br></br>
                 <br></br>
                 <h2>10 - ShapeEditor</h2>
+                <ShapeEditor/>
                 <br></br>
                 <br></br>
                 <h2>11 - Counter List</h2>
+                <CounterList/>
                 <br></br>
                 <br></br>
                 <h2>12 - List 3 </h2>
+                <List3/>
                 <br></br>
                 <br></br>
                 <h2>13 - List 4</h2>
+                <List4/>
                 <br></br>
                 <br></br>
-                <h2>14 - Bucket</h2>
+                <h2>14 - BucketList</h2>
+                <BucketList/>
                 <br></br>
                 <br></br>
             </div>

@@ -8,6 +8,7 @@ export default function MovingDot() {
 
   return (
     <div className="cardMovingDot">
+      <h2>Movimente o mouse dentro do card</h2>
       <div
         onPointerMove={(e) => {
           const cardRect = e.currentTarget.getBoundingClientRect();

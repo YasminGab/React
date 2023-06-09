@@ -171,7 +171,7 @@ p {
 
 }
 
-.subtituloAtv{
+.subtituloAtv {
   color: #cc4e8f;
   align-items: center;
   text-align: center;
@@ -223,23 +223,23 @@ p {
 
 /* Botão de voltar */
 
-.imgVoltar img{
+.imgVoltar img {
   width: 80px;
   height: 80px;
   margin-left: 30px;
   margin-top: 5px;
-  
+
 }
 
 /* Letreiro */
 
-.containerLetreiro{
+.containerLetreiro {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cardLetreiro{
+.cardLetreiro {
   display: flex;
   background-color: #DBCEF0;
   margin: 30px;
@@ -263,8 +263,8 @@ p {
   height: 100vh;
 }
 
-.toolbarCard{
-  background-color:  #ffff;
+.toolbarCard {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
@@ -272,10 +272,29 @@ p {
   margin: auto;
 }
 
+.botaoToolbar{
+  background-color: #f82d97;
+  color: white;
+  margin-right: 10px;
+  width: 45%;
+  height: 40px;
+  border-radius: 8px ;
+  font-size: 20px;
+  border-color: #f82d97;
+}
+
+
+.botaoToolbar:hover {
+  background-color: #01c4e7;
+  color: white;
+  border-color: #01c4e7;
+  cursor: pointer;
+}
+
 /* Atv 04 - Gallery */
 
-.cardGallery{
-  background-color:  #ffff;
+.cardGallery {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
@@ -285,30 +304,47 @@ p {
 
 /* Atv 04 - Counter */
 
-.cardCounter{
-  background-color:  #ffff;
+.cardCounter {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
   width: 20%;
   margin: auto;
+  font-size: 20px;
 }
 
 /* Atv 04 - Form */
 
-.cardForm{
-  background-color:  #ffff;
+.cardForm {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
   width: 20%;
   margin: auto;
+  font-size: 25px;
+
+}
+
+.labelForm{
+  width: 150px; 
+  height: 40px; 
+  font-size: 20px; 
+  border-radius: 8px;
+}
+
+.textForm{
+  width: 300px; 
+  height: 40px; 
+  font-size: 20px; 
+  border-radius: 8px;
 }
 
 /* Atv 04 - MovingDot */
 
-.cardMovingDot{
-  background-color:  #ffff;
+.cardMovingDot {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
@@ -318,11 +354,256 @@ p {
 
 /* Atv 04 - Form 2 */
 
-.cardForm2{
-  background-color:  #ffff;
+.cardForm2 {
+  background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(194, 99, 249);
   padding: 80px;
   width: 20%;
   margin: auto;
+  font-size: 25px;
+}
+
+.form2{
+  width: 200px; 
+  height: 30px; 
+  font-size: 20px; 
+  border-radius: 8px;
+  margin-left: 9px;
+}
+
+/* Atv 04 - List 2 */
+
+.cardList2 {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.artists-list {
+  list-style: none;
+  padding: 0;
+}
+
+.botaoList2{
+  background-color: #f82d97;
+  color: white;
+  margin-right: 10px;
+  width: 25%;
+  height: 30px;
+  border-radius: 8px ;
+  font-size: 15px;
+  border-color: #f82d97;
+  margin-bottom: 20px;
+}
+
+
+.botaoList2:hover {
+  background-color: #01c4e7;
+  color: white;
+  border-color: #01c4e7;
+  cursor: pointer;
+}
+
+/* Atv 04 - ShapeEditor*/
+
+.cardShapeEditor {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  position: relative;
+  height: 400px;
+}
+
+.shapeContainer {
+  position: relative;
+  height: 100%;
+}
+
+.shape {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.square {
+  background-color: purple;
+}
+
+.botaoShape{
+  background-color: #f82d97;
+  color: white;
+  margin-right: 10px;
+  width: 55%;
+  height: 40px;
+  border-radius: 8px ;
+  font-size: 20px;
+  border-color: #f82d97;
+  margin-bottom: 20px;
+}
+
+
+.botaoShape:hover {
+  background-color: #01c4e7;
+  color: white;
+  border-color: #01c4e7;
+  cursor: pointer;
+}
+
+/* Atv 04 - ConterList*/
+
+.cardConterList {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+.listConter {
+  list-style: none;
+  font-size: 50px;
+}
+
+.botaoconterList{
+  background-color: #f82d97;
+  color: white;
+  margin-right: 10px;
+  width: 25%;
+  height: 40px;
+  border-radius: 8px ;
+  font-size: 20px;
+  border-color: #f82d97;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+
+.botaoconterList:hover {
+  background-color: #01c4e7;
+  color: white;
+  border-color: #01c4e7;
+  cursor: pointer;
+}
+
+
+/* Atv 04 - List3*/
+
+.cardList3 {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+}
+
+.ulList3 {
+  list-style: none;
+  font-size: 25px;
+}
+
+
+/* Atv 04 - List4*/
+
+.cardList4 {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  
+}
+
+/* Atv 04 - BucketList*/
+
+.cardBuckeList {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.listContainer {
+  list-style-position: inside;
+  text-align: justify;
+  padding: 0;
+}
+
+
+.listItem {
+  margin-bottom: 10px;
+}
+
+/* Atv 04 - Form3*/
+
+.cardForm3 {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Atv 04 - List*/
+
+.cardList{
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(194, 99, 249);
+  padding: 80px;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.botaoList{
+  background-color: #f82d97;
+  color: white;
+  margin-right: 10px;
+  width: 30%;
+  height: 40px;
+  border-radius: 8px ;
+  font-size: 15px;
+  border-color: #f82d97;
+  margin-top: 20px;
+}
+
+
+.botaoList:hover {
+  background-color: #01c4e7;
+  color: white;
+  border-color: #01c4e7;
+  cursor: pointer;
 }

@@ -23,7 +23,7 @@ export default function Gallery5() {
     return (
         <>
             <div className="cardGallery">
-                <button onClick={handleClick}>
+                <button className="botaoToolbar" onClick={handleClick}>
                     Next
                 </button>
                 <h2>
@@ -38,7 +38,7 @@ export default function Gallery5() {
                     alt={sculpture.alt}
                 />
                 <div>
-                    <button onClick={handleMoreClick}>
+                    <button className="botaoToolbar" onClick={handleMoreClick}>
                         {showMore ? "Show" : "Show"} details
                     </button>
                     {showMore && <p>{sculpture.description}</p>}
