@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import undo from '../src/assets/imagens/undo.png'
-import Calculadora from "./aula8/Calculadora";
+import Calculadora from "./atividade5/Calculadora";
 
 export default function Atv06()
 {
