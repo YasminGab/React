@@ -742,6 +742,7 @@ p {
   align-items: center;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
 }
 
 .caixaCalculadora {
@@ -804,7 +805,7 @@ p {
   padding-left: 2rem;
 }
 
-
+/* Atv 07 - Jogo da memória*/
 .jogo-memoria-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
