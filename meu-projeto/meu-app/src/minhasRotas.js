@@ -8,7 +8,6 @@ import Atv04 from './Atv04';
 import Atv05 from './Atv05';
 import Atv06 from './Atv06';
 import Atv07 from './Atv07';
-import Atv08 from './Atv08';
 import Toolbar from './aula5/Toolbar';
 
 export default function MinhasRotas() {
@@ -23,7 +22,6 @@ export default function MinhasRotas() {
         <Route path="/atv05" element={<Atv05 />} />
         <Route path="/atv06" element={<Atv06 />} />
         <Route path="/atv07" element={<Atv07 />} />
-        <Route path="/atv08" element={<Atv08 />} />
         <Route exact path="/" element={<Atv04 />} />
         <Route exact path="/aula5/Toolbar" element={<Toolbar />} />
       </Routes>

@@ -806,6 +806,7 @@ p {
 }
 
 /* Atv 07 - Jogo da memória*/
+
 .jogo-memoria-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -814,8 +815,8 @@ p {
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     background-color: #cf0060;
     text-align: center;
     line-height: 200px;

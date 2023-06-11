@@ -77,6 +77,7 @@ const JogoMemoria = () => {
 
     return (
         <div className='cardJogoMemoria'>
+            {gameOver && <p>Parabéns, você joga muito bem!</p>}
             <div className="jogo-memoria-container">
                 {cards.map((card) => (
                     <div
@@ -90,7 +91,7 @@ const JogoMemoria = () => {
                     ></div>
                 ))}
             </div>
-            {gameOver && <p>Parabéns, você joga muito bem!</p>}
+            
         </div>
     );
 };

@@ -50,11 +50,6 @@ const Home = () =>
                 <p>Jogo da Memória</p>
             </Link>
 
-            <Link to= "/Atv08" className="cardAtividade" style={{ textDecoration: 'none' }}>
-                <h2>Atividade 8</h2>
-                <p>Carrinho de Compras</p>
-            </Link>
-
         </div>
     );
 }
